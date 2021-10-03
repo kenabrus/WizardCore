@@ -1,0 +1,46 @@
+@model Infrastructure.Dto.MessageDto
+@{
+    ViewData["Title"] = "Wizard";
+}
+
+@* @await Html.PartialAsync("_P1", Model.FirstName)
+
+@await Html.PartialAsync("_P2", Model.LastName) *@
+
+<div class="container">
+    <form action="/Wizard/SendForm/" method="POST">
+        @* data-ajax-method="POST"
+            data-ajax-update="#returnMessage"
+            data-ajax-mode="replace"
+            data-ajax-loading="#loading-gif"
+            data-ajax-success="OnSuccessMessage"
+            data-ajax-failure="OnFailureMessage"
+            data-ajax="true"> *@
+
+        <input asp-for="FirstName" type="hidden" />
+        <input asp-for="LastName" type="hidden" />
+        <input asp-for="EmailTo" type="hidden" />
+
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label asp-for="TopicId" class="control-label"></label>
+                    <select asp-for="TopicId" class="form-control" asp-items="ViewBag.TopicId">
+                        <option value="">-- Select topic category --</option>
+                    </select>
+                    <span asp-validation-for="TopicId" class="text-danger" />
+                </div>
+                <div class="col-sm-6">
+                    <textarea asp-for="MessageText" rows="5" class="form-control" placeholder=@Html.DisplayNameFor(m =>
+                        m.MessageText)></textarea>
+                    @* <span asp-validation-for="MessageText" class="text-danger"></span> *@
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <input type="submit" value="SEND">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

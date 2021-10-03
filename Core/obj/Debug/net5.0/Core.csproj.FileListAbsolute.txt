@@ -1,0 +1,24 @@
+G:\csharp\.Net core\WizardCore\Core\bin\Debug\net5.0\Core.deps.json
+G:\csharp\.Net core\WizardCore\Core\bin\Debug\net5.0\Core.dll
+G:\csharp\.Net core\WizardCore\Core\bin\Debug\net5.0\ref\Core.dll
+G:\csharp\.Net core\WizardCore\Core\bin\Debug\net5.0\Core.pdb
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.dll
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\ref\Core.dll
+G:\csharp\.Net core\WizardCore\Core\obj\Debug\net5.0\Core.pdb
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\bin\Debug\net5.0\Core.dll
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.dll
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Core\obj\Debug\net5.0\Core.pdb

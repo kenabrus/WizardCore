@@ -1,0 +1,36 @@
+@model Infrastructure.Dto.MessageDto
+@{
+    ViewData["Title"] = "Wizard";
+}
+
+@* @await Html.PartialAsync("_P1", Model)
+
+@await Html.PartialAsync("_P2", Model) *@
+
+<div class="container">
+    <form action="/Wizard/StepTwo/" method="POST">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-sm-6 form-group">
+                    <input asp-for="FirstName" class="form-control" placeholder=@Html.DisplayNameFor(m =>
+                        m.FirstName) />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input asp-for="LastName" class="form-control" placeholder=@Html.DisplayNameFor(m => m.LastName) />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+                <div class="col-sm-6 form-group">
+                    <input asp-for="EmailTo" class="form-control" placeholder=@Html.DisplayNameFor(m => m.EmailTo) />
+                    <span asp-validation-for="EmailTo" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 form-group">
+                    <input type="submit" value="NEXT >">
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

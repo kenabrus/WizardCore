@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "PSFUA4IIjtjtWEQq3sEYl+3eGe4IKnZ2je7Jzzcmm4FyF9A0OVDIHYBeOEM7lJ7SZWj4aDB3JEmvIZBRpk0T9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kenabrus\\Desktop\\O F E R I A\\WizardCore\\Core\\Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.5\\microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.identity.core\\5.0.5\\microsoft.extensions.identity.core.5.0.5.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.identity.stores\\5.0.5\\microsoft.extensions.identity.stores.5.0.5.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\kenabrus\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,58 @@
+@model IEnumerable<Infrastructure.Dto.MessageDto>
+
+@{
+    ViewData["Title"] = "Wysłane wiadomości";
+}
+
+<h2>Wysłane wiadomości</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailCc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailTo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SendDateTime)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailCc)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EmailTo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SendDateTime)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
