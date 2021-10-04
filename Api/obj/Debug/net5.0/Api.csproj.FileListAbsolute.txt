@@ -123,3 +123,6 @@ C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Api.Views.
 C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Api.csproj.CopyComplete
 C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Api.genruntimeconfig.cache
 C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Razor\Views\Wizard\Messages.cshtml.g.cs
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Razor\Views\Wizard\Index.cshtml.g.cs
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Razor\Views\Wizard\S1.cshtml.g.cs
+C:\Users\kenabrus\Desktop\O F E R I A\WizardCore\Api\obj\Debug\net5.0\Razor\Views\Wizard\S2.cshtml.g.cs

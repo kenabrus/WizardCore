@@ -10,8 +10,8 @@ namespace Infrastructure.Data.Config
         public void Configure(EntityTypeBuilder<Topic> builder)
         {
             builder.ToTable("Topic");
-            // builder.HasKey(p => p.Id);
-            // builder.Property(p => p.Id).HasColumnType("integer").IsRequired();
+            builder.HasKey(p => p.Id);
+            builder.Property(p => p.Id).HasColumnType("integer").IsRequired();
             builder.Property(p => p.Name).HasColumnType("nvarchar(64)").IsRequired();
             Console.WriteLine($"    -   TopicTableConfiguration");  
         }

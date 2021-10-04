@@ -1,0 +1,11 @@
+@model Dictionary<string, StepViewModel>
+
+@{
+    var s1 = Model["S1"];
+    var position = Model["S1"].Position;
+    
+}
+<p>S1 @position</p>
+<form>
+  @* <input asp-for="m1.FirstName" class="form-control"/> *@
+</form>

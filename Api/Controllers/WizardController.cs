@@ -41,6 +41,16 @@ namespace Api.Controllers
             _wizardService = wizardService;
         }
 
+        public async Task<IActionResult> Index()
+        {
+            Dictionary<string, StepViewModel> wiz = new Dictionary<string, StepViewModel>();
+            wiz.Add("S1", new StepViewModel());
+            wiz.Add("S2", new StepViewModel());
+
+            
+            return View(wiz);
+        }
+
         public async Task<IActionResult> Messages()
         {
             // var viewModel = await _context.Messages

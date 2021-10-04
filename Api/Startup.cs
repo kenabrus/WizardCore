@@ -34,9 +34,9 @@ namespace Api
         public void ConfigureServices(IServiceCollection services)
         {   
             services.AddDbContext<ApplicationDbContext>(x =>
-                //  x.UseSqlServer(Configuration.GetConnectionString("MsSqlDefaultConnection"),
-                // b => b.MigrationsAssembly("Infrastructure")));
-                x.UseSqlite(Configuration.GetConnectionString("SqliteDefaultConnection")));
+                 x.UseSqlServer(Configuration.GetConnectionString("MsSqlDefaultConnection"),
+                b => b.MigrationsAssembly("Infrastructure")));
+                //x.UseSqlite(Configuration.GetConnectionString("SqliteDefaultConnection")));
 
             services.AddApplicationServices(Configuration);
             services.AddControllersWithViews();

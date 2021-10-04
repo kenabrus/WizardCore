@@ -1,0 +1,22 @@
+@model Dictionary<string, StepViewModel>
+
+@{
+    var p1 = Model["S1"].Position;
+    var p2 = Model["S2"].Position;
+}
+
+<p>@p1  @p2</p>
+
+@* @foreach (var item in Model.Keys.ToArray())
+{
+    await Html.RenderPartialAsync(item);
+} *@
+
+@foreach (var item in Model.Values.ToArray())
+{
+    <p>@item.Position</p>
+}
+
+@{
+    await Html.RenderPartialAsync("S1");
+}
